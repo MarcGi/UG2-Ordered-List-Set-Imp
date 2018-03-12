@@ -1,0 +1,325 @@
+Creating OrderedListSet...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+
+Insert 10...
+  OLS:: address:0x7fa370c031d0 size:1 head:0x7fa370c031f0 tail:0x7fa370c031f0
+    N1:: address:0x7fa370c031f0 data:10 next:0x0 prev:0x0
+Insert 5...
+  OLS:: address:0x7fa370c031d0 size:2 head:0x7fa370c03210 tail:0x7fa370c031f0
+    N1:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x0
+    N2:: address:0x7fa370c031f0 data:10 next:0x0 prev:0x7fa370c03210
+Insert 15...
+  OLS:: address:0x7fa370c031d0 size:3 head:0x7fa370c03210 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x0
+    N2:: address:0x7fa370c031f0 data:10 next:0x7fa370c03230 prev:0x7fa370c03210
+    N3:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c031f0
+Insert 20...
+  OLS:: address:0x7fa370c031d0 size:4 head:0x7fa370c03210 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x0
+    N2:: address:0x7fa370c031f0 data:10 next:0x7fa370c03230 prev:0x7fa370c03210
+    N3:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c031f0
+    N4:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Insert 1...
+  OLS:: address:0x7fa370c031d0 size:5 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c031f0 data:10 next:0x7fa370c03230 prev:0x7fa370c03210
+    N4:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c031f0
+    N5:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Insert 3...
+  OLS:: address:0x7fa370c031d0 size:6 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c03230 prev:0x7fa370c03210
+    N5:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Insert 17...
+  OLS:: address:0x7fa370c031d0 size:7 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c03230 prev:0x7fa370c03210
+    N5:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N7:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Insert 12...
+  OLS:: address:0x7fa370c031d0 size:8 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c031f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N7:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N8:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Insert 7...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+
+Duplicate insert 10...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Duplicate insert 1...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Duplicate insert 20...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+
+contains -4:: false
+contains -3:: false
+contains -2:: false
+contains -1:: false
+contains 0:: false
+contains 1:: true
+contains 2:: false
+contains 3:: true
+contains 4:: false
+contains 5:: true
+contains 6:: false
+contains 7:: true
+contains 8:: false
+contains 9:: false
+contains 10:: true
+contains 11:: false
+contains 12:: true
+contains 13:: false
+contains 14:: false
+contains 15:: true
+contains 16:: false
+contains 17:: true
+contains 18:: false
+contains 19:: false
+contains 20:: true
+contains 21:: false
+contains 22:: false
+contains 23:: false
+contains 24:: false
+
+Remove 22...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Remove 14...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Remove 4...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Remove -1...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Remove 11...
+  OLS:: address:0x7fa370c031d0 size:9 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c032b0 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c032b0 data:17 next:0x7fa370c03250 prev:0x7fa370c03230
+    N9:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c032b0
+Remove 17...
+  OLS:: address:0x7fa370c031d0 size:8 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Remove 9...
+  OLS:: address:0x7fa370c031d0 size:8 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Remove 23...
+  OLS:: address:0x7fa370c031d0 size:8 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03290 prev:0x0
+    N2:: address:0x7fa370c03290 data:3 next:0x7fa370c03210 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03290
+    N4:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N5:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N6:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N7:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c032d0
+    N8:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Remove 3...
+  OLS:: address:0x7fa370c031d0 size:7 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c032d0
+    N7:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Remove -3...
+  OLS:: address:0x7fa370c031d0 size:7 head:0x7fa370c03270 tail:0x7fa370c03250
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x7fa370c03250 prev:0x7fa370c032d0
+    N7:: address:0x7fa370c03250 data:20 next:0x0 prev:0x7fa370c03230
+Remove 20...
+  OLS:: address:0x7fa370c031d0 size:6 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032d0
+Remove 19...
+  OLS:: address:0x7fa370c031d0 size:6 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032d0
+Remove 0...
+  OLS:: address:0x7fa370c031d0 size:6 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c031f0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c031f0 data:10 next:0x7fa370c032d0 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c031f0
+    N6:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032d0
+Remove 10...
+  OLS:: address:0x7fa370c031d0 size:5 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03210 prev:0x0
+    N2:: address:0x7fa370c03210 data:5 next:0x7fa370c032f0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032f0 data:7 next:0x7fa370c032d0 prev:0x7fa370c03210
+    N4:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c032f0
+    N5:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032d0
+Remove 5...
+  OLS:: address:0x7fa370c031d0 size:4 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c032f0 prev:0x0
+    N2:: address:0x7fa370c032f0 data:7 next:0x7fa370c032d0 prev:0x7fa370c03270
+    N3:: address:0x7fa370c032d0 data:12 next:0x7fa370c03230 prev:0x7fa370c032f0
+    N4:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032d0
+Remove 12...
+  OLS:: address:0x7fa370c031d0 size:3 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c032f0 prev:0x0
+    N2:: address:0x7fa370c032f0 data:7 next:0x7fa370c03230 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032f0
+Remove 16...
+  OLS:: address:0x7fa370c031d0 size:3 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c032f0 prev:0x0
+    N2:: address:0x7fa370c032f0 data:7 next:0x7fa370c03230 prev:0x7fa370c03270
+    N3:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c032f0
+Remove 7...
+  OLS:: address:0x7fa370c031d0 size:2 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03230 prev:0x0
+    N2:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c03270
+Remove -4...
+  OLS:: address:0x7fa370c031d0 size:2 head:0x7fa370c03270 tail:0x7fa370c03230
+    N1:: address:0x7fa370c03270 data:1 next:0x7fa370c03230 prev:0x0
+    N2:: address:0x7fa370c03230 data:15 next:0x0 prev:0x7fa370c03270
+Remove 15...
+  OLS:: address:0x7fa370c031d0 size:1 head:0x7fa370c03270 tail:0x7fa370c03270
+    N1:: address:0x7fa370c03270 data:1 next:0x0 prev:0x0
+Remove 2...
+  OLS:: address:0x7fa370c031d0 size:1 head:0x7fa370c03270 tail:0x7fa370c03270
+    N1:: address:0x7fa370c03270 data:1 next:0x0 prev:0x0
+Remove 18...
+  OLS:: address:0x7fa370c031d0 size:1 head:0x7fa370c03270 tail:0x7fa370c03270
+    N1:: address:0x7fa370c03270 data:1 next:0x0 prev:0x0
+Remove 8...
+  OLS:: address:0x7fa370c031d0 size:1 head:0x7fa370c03270 tail:0x7fa370c03270
+    N1:: address:0x7fa370c03270 data:1 next:0x0 prev:0x0
+Remove 1...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove -2...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 21...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 13...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 24...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 6...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 10...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 7...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 15...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+Remove 1...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+
+Destroying OrderedListSet...
+  OLS:: address:0x7fa370c031d0 size:0 head:0x0 tail:0x0
+

@@ -1,0 +1,334 @@
+Creating OrderedListSet...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+
+Insert 10...
+  OLS:: address:0x61f020 size:1 head:0x61f040 tail:0x61f040
+    N1:: address:0x61f040 data:10 next:(nil) prev:(nil)
+Insert 5...
+  OLS:: address:0x61f020 size:2 head:0x61f060 tail:0x61f040
+    N1:: address:0x61f060 data:5 next:0x61f040 prev:(nil)
+    N2:: address:0x61f040 data:10 next:(nil) prev:0x61f060
+Insert 15...
+  OLS:: address:0x61f020 size:3 head:0x61f060 tail:0x61f080
+    N1:: address:0x61f060 data:5 next:0x61f040 prev:(nil)
+    N2:: address:0x61f040 data:10 next:0x61f080 prev:0x61f060
+    N3:: address:0x61f080 data:15 next:(nil) prev:0x61f040
+Insert 20...
+  OLS:: address:0x61f020 size:4 head:0x61f060 tail:0x61f0a0
+    N1:: address:0x61f060 data:5 next:0x61f040 prev:(nil)
+    N2:: address:0x61f040 data:10 next:0x61f080 prev:0x61f060
+    N3:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f040
+    N4:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Insert 1...
+  OLS:: address:0x61f020 size:5 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f040 prev:0x61f0c0
+    N3:: address:0x61f040 data:10 next:0x61f080 prev:0x61f060
+    N4:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f040
+    N5:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Insert 3...
+  OLS:: address:0x61f020 size:6 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f040 prev:0x61f0e0
+    N4:: address:0x61f040 data:10 next:0x61f080 prev:0x61f060
+    N5:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f040
+    N6:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Insert 17...
+  OLS:: address:0x61f020 size:7 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f040 prev:0x61f0e0
+    N4:: address:0x61f040 data:10 next:0x61f080 prev:0x61f060
+    N5:: address:0x61f080 data:15 next:0x61f100 prev:0x61f040
+    N6:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N7:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Insert 12...
+  OLS:: address:0x61f020 size:8 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f040 prev:0x61f0e0
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f060
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N7:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N8:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Insert 7...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+
+Duplicate insert 10...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Duplicate insert 1...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Duplicate insert 20...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+
+contains -4:: false
+contains -3:: false
+contains -2:: false
+contains -1:: false
+contains 0:: false
+contains 1:: true
+contains 2:: false
+contains 3:: true
+contains 4:: false
+contains 5:: true
+contains 6:: false
+contains 7:: true
+contains 8:: false
+contains 9:: false
+contains 10:: true
+contains 11:: false
+contains 12:: true
+contains 13:: false
+contains 14:: false
+contains 15:: true
+contains 16:: false
+contains 17:: true
+contains 18:: false
+contains 19:: false
+contains 20:: true
+contains 21:: false
+contains 22:: false
+contains 23:: false
+contains 24:: false
+
+Remove 22...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Remove 14...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Remove 4...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Remove -1...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Remove 11...
+  OLS:: address:0x61f020 size:9 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f100 prev:0x61f120
+    N8:: address:0x61f100 data:17 next:0x61f0a0 prev:0x61f080
+    N9:: address:0x61f0a0 data:20 next:(nil) prev:0x61f100
+Remove 17...
+Pos is b
+  OLS:: address:0x61f020 size:8 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f120
+    N8:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Remove 9...
+  OLS:: address:0x61f020 size:8 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f120
+    N8:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Remove 23...
+  OLS:: address:0x61f020 size:8 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f0e0 prev:(nil)
+    N2:: address:0x61f0e0 data:3 next:0x61f060 prev:0x61f0c0
+    N3:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0e0
+    N4:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N5:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N6:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N7:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f120
+    N8:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Remove 3...
+Pos is b
+  OLS:: address:0x61f020 size:7 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f120
+    N7:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Remove -3...
+  OLS:: address:0x61f020 size:7 head:0x61f0c0 tail:0x61f0a0
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:0x61f0a0 prev:0x61f120
+    N7:: address:0x61f0a0 data:20 next:(nil) prev:0x61f080
+Remove 20...
+Pos is t
+  OLS:: address:0x61f020 size:6 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:(nil) prev:0x61f120
+Remove 19...
+  OLS:: address:0x61f020 size:6 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:(nil) prev:0x61f120
+Remove 0...
+  OLS:: address:0x61f020 size:6 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f040 prev:0x61f060
+    N4:: address:0x61f040 data:10 next:0x61f120 prev:0x61f140
+    N5:: address:0x61f120 data:12 next:0x61f080 prev:0x61f040
+    N6:: address:0x61f080 data:15 next:(nil) prev:0x61f120
+Remove 10...
+Pos is b
+  OLS:: address:0x61f020 size:5 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f060 prev:(nil)
+    N2:: address:0x61f060 data:5 next:0x61f140 prev:0x61f0c0
+    N3:: address:0x61f140 data:7 next:0x61f120 prev:0x61f060
+    N4:: address:0x61f120 data:12 next:0x61f080 prev:0x61f140
+    N5:: address:0x61f080 data:15 next:(nil) prev:0x61f120
+Remove 5...
+Pos is b
+  OLS:: address:0x61f020 size:4 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f140 prev:(nil)
+    N2:: address:0x61f140 data:7 next:0x61f120 prev:0x61f0c0
+    N3:: address:0x61f120 data:12 next:0x61f080 prev:0x61f140
+    N4:: address:0x61f080 data:15 next:(nil) prev:0x61f120
+Remove 12...
+Pos is b
+  OLS:: address:0x61f020 size:3 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f140 prev:(nil)
+    N2:: address:0x61f140 data:7 next:0x61f080 prev:0x61f0c0
+    N3:: address:0x61f080 data:15 next:(nil) prev:0x61f140
+Remove 16...
+  OLS:: address:0x61f020 size:3 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f140 prev:(nil)
+    N2:: address:0x61f140 data:7 next:0x61f080 prev:0x61f0c0
+    N3:: address:0x61f080 data:15 next:(nil) prev:0x61f140
+Remove 7...
+Pos is b
+  OLS:: address:0x61f020 size:2 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f080 prev:(nil)
+    N2:: address:0x61f080 data:15 next:(nil) prev:0x61f0c0
+Remove -4...
+  OLS:: address:0x61f020 size:2 head:0x61f0c0 tail:0x61f080
+    N1:: address:0x61f0c0 data:1 next:0x61f080 prev:(nil)
+    N2:: address:0x61f080 data:15 next:(nil) prev:0x61f0c0
+Remove 15...
+Pos is t
+  OLS:: address:0x61f020 size:1 head:0x61f0c0 tail:0x61f0c0
+    N1:: address:0x61f0c0 data:1 next:(nil) prev:(nil)
+Remove 2...
+  OLS:: address:0x61f020 size:1 head:0x61f0c0 tail:0x61f0c0
+    N1:: address:0x61f0c0 data:1 next:(nil) prev:(nil)
+Remove 18...
+  OLS:: address:0x61f020 size:1 head:0x61f0c0 tail:0x61f0c0
+    N1:: address:0x61f0c0 data:1 next:(nil) prev:(nil)
+Remove 8...
+  OLS:: address:0x61f020 size:1 head:0x61f0c0 tail:0x61f0c0
+    N1:: address:0x61f0c0 data:1 next:(nil) prev:(nil)
+Remove 1...
+Pos is l
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove -2...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 21...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 13...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 24...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 6...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 10...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 7...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 15...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+Remove 1...
+  OLS:: address:0x61f020 size:0 head:(nil) tail:(nil)
+
+Destroying OrderedListSet...
+  OLS:: address:0x61f020 size:6418608 head:(nil) tail:(nil)
+
